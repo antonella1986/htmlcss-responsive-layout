@@ -206,8 +206,8 @@ footer{
 
 @media screen and (max-width: 1440px){
     main{
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
         width: 100%;
     }
     header{
@@ -231,6 +231,19 @@ footer{
         justify-content: flex-start;
         flex-wrap: wrap;
         line-height: 2rem;
+    }
+    .container{
+        display: flex;
+        width: 100%;
+    }
+    .video{
+
+    }
+    .synthesis{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        max-width: 300px;
     }
     .fa-brands{
         border-radius: 30%;
