@@ -42,6 +42,10 @@ header{
     font-size: 24px;
 }
 
+#tradizionale{
+    display: none;
+}
+
 .video{
     margin-bottom: -0.5rem;
 }
@@ -202,8 +206,8 @@ footer{
 
 @media screen and (max-width: 1440px){
     main{
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
         width: 100%;
     }
     header{
@@ -215,6 +219,9 @@ footer{
     .title-container{
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+    #tradizionale{
+        display: inline;
     }
     h3{
         padding-bottom: 2rem;
@@ -237,7 +244,9 @@ footer{
     .banner{
         display: inline-block;
         padding-bottom: 2rem;
-        width: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .presentation-img{
         float: left;
@@ -245,5 +254,32 @@ footer{
     .presentation-description{
         padding-top: 2rem;
         margin-bottom: 2rem;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .menu-sx{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .voci-sx{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: 0;
+    }
+    .menu-dx{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .voci-dx{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 }
