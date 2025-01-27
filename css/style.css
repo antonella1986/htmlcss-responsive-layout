@@ -1,15 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
-    background-color: #666460;
+    box-sizing: border-box;
     font-family: Montserrat;
+}
+
+main{ 
+    background-color: #F6F5F3;
 }
 
 header{
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: white;
     max-width: 100%;
     h1{
@@ -22,9 +25,8 @@ header{
 }
 
 .title-container{
-    margin: 1rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
 }
 
 #category{
@@ -38,23 +40,25 @@ header{
 }
 
 .container{
-    margin: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    width: 480px;
 }
 
 .synthesis{
     background-color: white;
     padding-top: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 3px 3px 2px 2px #9999991f;
 }
 
 h3{
     padding-bottom: 1rem;
-    padding-left: 1rem;
+    padding-left: 1.75rem;
 }
 
 p{
     padding-bottom: 0.75rem;
-    padding-left: 1rem;
+    padding-left: 1.75rem;
 }
 
 
