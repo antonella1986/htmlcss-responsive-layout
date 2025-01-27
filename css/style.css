@@ -9,6 +9,15 @@ header{
     display: flex;
     justify-content: center;
     padding: 1rem;
+    background-color: white;
+    max-width: 1440px;
+    h1{
+        color: #FF9614;
+        background-color: white;
+        font-family: nerko one;
+        font-size: 55px;
+        text-shadow: 2px 2px #a9a9a9;
+    }
 }
 
 .banner{
@@ -19,10 +28,4 @@ footer{
     background-color: #7C69A4;
     width: 100%;
     padding: 0.25rem 1rem 0.25rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    vertical-align: middle;
-    flex-wrap: wrap;
-    position: fixed;
   }
