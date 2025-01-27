@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    background-color: #F6F5F3;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.banner{
+    display: none;
+}
+
+footer{
+    background-color: #7C69A4;
+    width: 100%;
+    padding: 0.25rem 1rem 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    position: fixed;
+  }
