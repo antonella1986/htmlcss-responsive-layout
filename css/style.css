@@ -84,6 +84,10 @@ h3{
     background-color: white;
 }
 
+.social-label{
+    display: none;
+}
+
 .presentation-title{
     margin-bottom: 1rem;
     font-weight: 500;
@@ -180,6 +184,55 @@ footer{
         padding: 0.75rem 3rem 0.75rem;
         box-shadow: 2px 2px 2px 2px rgba(211, 211, 211, 0.457);
         background-color: white;
+
+    }
+    .banner{
+        display: inline-block;
+        padding-bottom: 2rem;
+        width: 50%;
+    }
+    .presentation-img{
+        float: left;
+    }
+    .presentation-description{
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    main{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1.5rem;
+        width: 100%;
+    }
+    .title-container{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    h3{
+        padding-bottom: 2rem;
+    }
+    .paragraphs{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        line-height: 2rem;
+    }
+    .fa-brands{
+        border-radius: 30%;
+        padding: 0.75rem 3rem 0.75rem;
+        box-shadow: 2px 2px 2px 2px rgba(211, 211, 211, 0.457);
+        background-color: white;
+    }
+    .social-label{
+        display: inline;
     }
     .banner{
         display: inline-block;
