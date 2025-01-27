@@ -145,3 +145,31 @@ footer{
     font-weight: 500;
     color: white;
 }
+
+/******* Responsive solution *******/
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+    main{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    header{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .title-container{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    h3{
+        padding-bottom: 2rem;
+    }
+    .paragraphs{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        line-height: 2rem;
+    }
+}
